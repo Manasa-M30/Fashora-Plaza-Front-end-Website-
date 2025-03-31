@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Card</title>
+    <style>
+       body {
+      background-color: #800020;
+      color: #F7E7CE;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+     }
+
+   .product-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+     justify-content: center;
+    }
+
+  .product-card {
+    position: relative;
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding-bottom: 15px;
+    background-color: #F7E7CE;
+    color: #800020;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+  .product-card img {
+    width: 100%;
+    height: 400px; 
+    object-fit: cover; 
+    display: block;
+   }
+
+  .product-details {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .price-tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #ff5722;
+    color: white;
+    padding: 5px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+
+ .add-to-cart, .buy-now {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: 0.3s;
+  }
+
+  .add-to-cart {
+    background-color: #8B5A2B;
+    color: white;
+  }
+
+  .add-to-cart:hover {
+    background-color: #218838;
+  }
+
+  .buy-now {
+    background-color: #DAA520;
+    color: white;
+    font-weight: bold;
+  }
+
+  .buy-now:hover {
+    background-color: #b71c1c;
+  }
+
+        
+    </style>
+</head>
+<body>
+
+    <div class="product-container">
+        <div class="product-card">
+            <div class="price-tag">₹890</div>
+            <img src="D:\Fashora plazo\mc2.jpg" alt="Image1">
+            <button class="add-to-cart">Add to Cart</button>
+            <button class="buy-now">Buy Now</button>
+        </div>
+         <div class="product-card">
+            <div class="price-tag">₹4599</div>
+            <img src="D:\Fashora plazo\me7.jpg" alt="Wedding Dress 1">
+            <button class="add-to-cart">Add to Cart</button>
+            <button class="buy-now">Buy Now</button>
+        </div>
+        <div class="product-card">
+            <div class="price-tag">₹987</div>
+            <img src="D:\Fashora plazo\mcasual.jpg" alt="Image10">
+            <button class="add-to-cart">Add to Cart</button>
+            <button class="buy-now">Buy Now</button>
+        </div>
+         
+
+         <div class="product-card">
+            <div class="price-tag">₹6299</div>
+            <img src="D:\Fashora plazo\me10.jpg" alt="Wedding Dress 1">
+            <button class="add-to-cart">Add to Cart</button>
+            <button class="buy-now">Buy Now</button>
+        </div>
+
+
+
+      
+         <div class="product-card">
+            <div class="price-tag">₹5599</div>
+            <img src="D:\Fashora plazo\me9.jpg" alt="Wedding Dress 1">
+            <button class="add-to-cart">Add to Cart</button>
+            <button class="buy-now">Buy Now</button>
+        </div>        
+        <div class="product-card">
+            <div class="price-tag">₹799</div>
+            <img src="D:\Fashora plazo\mc4.jpg" alt="Image4">
+            <button class="add-to-cart">Add to Cart</button>
+            <button class="buy-now">Buy Now</button>
+        </div>
+        <div class="product-card">
+            <div class="price-tag">₹3299</div>
+            <img src="D:\Fashora plazo\me8.jpg" alt="Wedding Dress 2">
+            <button class="add-to-cart">Add to Cart</button>
+            <button class="buy-now">Buy Now</button>
+        </div>
+      
+        <div class="product-card">
+            <div class="price-tag">₹855</div>
+            <img src="D:\Fashora plazo\mc5.jpg" alt="Image5">
+            <button class="add-to-cart">Add to Cart</button>
+            <button class="buy-now">Buy Now</button>
+        </div>
+
+        <div class="product-card">
+            <div class="price-tag">₹3455</div>
+            <img src="D:\Fashora plazo\me6.jpg" alt="Image14">
+            <button class="add-to-cart">Add to Cart</button>
+            <button class="buy-now">Buy Now</button>
+        </div>
+
+
+        <div class="product-card">
+            <div class="price-tag">₹689</div>
+            <img src="D:\Fashora plazo\mc6.jpg" alt="Image6">
+            <button class="add-to-cart">Add to Cart</button>
+            <button class="buy-now">Buy Now</button>
+        </div>
+
+        <div class="product-card">
+            <div class="price-tag">₹999</div>
+            <img src="D:\Fashora plazo\me4.jpg" alt="Image13">
+            <button class="add-to-cart">Add to Cart</button>
+            <button class="buy-now">Buy Now</button>
+        </div>
+
+        <div class="product-card">
+            <div class="price-tag">₹672</div>
+            <img src="D:\Fashora plazo\mc7.jpg" alt="Image7">
+            <button class="add-to-cart">Add to Cart</button>
+            <button class="buy-now">Buy Now</button>
+        </div>
+
+        <div class="product-card">
+            <div class="price-tag">₹2399</div>
+            <img src="D:\Fashora plazo\me3.jpg" alt="Image12">
+            <button class="add-to-cart">Add to Cart</button>
+            <button class="buy-now">Buy Now</button>
+        </div>
+
+        <div class="product-card">
+            <div class="price-tag">₹700</div>
+            <img src="D:\Fashora plazo\mc8.jpg" alt="Image8">
+            <button class="add-to-cart">Add to Cart</button>
+            <button class="buy-now">Buy Now</button>
+        </div>
+
+        <div class="product-card">
+            <div class="price-tag">₹2999</div>
+            <img src="D:\Fashora plazo\me2.jpg" alt="Image11">
+            <button class="add-to-cart">Add to Cart</button>
+            <button class="buy-now">Buy Now</button>
+        </div>
+
+
+
+        <div class="product-card">
+            <div class="price-tag">₹699</div>
+            <img src="D:\Fashora plazo\mc9.jpg" alt="Image9">
+            <button class="add-to-cart">Add to Cart</button>
+            <button class="buy-now">Buy Now</button>
+        </div>
+
+       <div class="product-card">
+            <div class="price-tag">₹999</div>
+            <img src="D:\Fashora plazo\mc3.jpg" alt="Image3">
+            <button class="add-to-cart">Add to Cart</button>
+            <button class="buy-now">Buy Now</button>
+        </div>
+
+
+
+    </div>
+
+</body>
+</html>

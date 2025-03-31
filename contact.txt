@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            background-color: #F7E7CE;
+            color: #800020;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            font-family: 'Georgia', serif;
+            font-size: 35px;
+        }
+        p {
+            font-size: 35px;
+            font-family: 'Verdana', sans-serif;
+        }
+        .contact {
+            font-size: 35px;
+            font-family: 'Courier New', monospace;
+        }
+        .icon {
+            margin-right: 10px;
+            color: #800020
+            font-size: 35px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <p>We are committed to meeting your needs and providing you with the best shopping experience.</p>
+    
+    <p class="contact">
+        <span class="icon">📞</span> +91 9876543210<br>
+        <span class="icon">📞</span> +91 6689054321<br>
+        <span class="icon">📞</span> +91 8907654321<br>
+        <span class="icon">📞</span> +91 98700543219
+    </p>
+    
+    <p>Email: fashoraplaza@gmail.com</p>
+    <p>Instagram: @yourfashora_plaza_official</p>
+    <p>Facebook: @fashora_plaza_official</p>
+</body>
+</html>

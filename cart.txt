@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <style>
+        body {
+            background-color: #800020;
+            color: #800020;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            color: white;
+        }
+        .cart-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .item {
+            background-color: #F7E7CE;
+            padding: 15px;
+            border-radius: 10px;
+            width: 200px;
+            text-align: center;
+        }
+        .item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        .item p {
+            margin: 10px 0 5px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>The items you have added to the cart</h1>
+
+    <div class="cart-container">
+        <div class="item">
+            <img src= "D:\Fashora plazo\wc10.jpg"alt="Product 1">
+            <p>Product :Women Casuals </p>
+            <p>Price:₹985 </p>
+        </div>
+        <div class="item">
+            <img src="D:\Fashora plazo\wedding1.jpg" alt="Product 2">
+            <p>Product: Wedding set</p>
+            <p>Price:₹7599</p>
+        </div>
+        <div class="item">
+            <img src="D:\Fashora plazo\we10.jpg"alt="Product 3">
+            <p>Product: Ethnic set</p>
+            <p>Price: ₹6299</p>
+        </div>
+    </div>
+
+</body>
+</html>

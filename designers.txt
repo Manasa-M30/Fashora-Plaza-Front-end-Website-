@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Designer Details</title>
+    <style>
+        body {
+            background-color: #800020;
+            color: #F7E7CE;
+            font-family: Cursive;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .designer-card {
+            display: flex;
+            align-items: center;
+            background-color: #F7E7CE;
+            color: #800020;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            width: 60%;
+            flex-direction: row;
+        }
+        .designer-card img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-right: 20px;
+            border: 3px solid #800020;
+        }
+        .designer-details {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h1>OUR TOP DESIGNERS</h1>
+    <div class="designer-card">
+        <img src="D:\Fashora plazo\d4.jpg" alt="Designer Picture">
+        <div class="designer-details">
+            <h2>Catherine</h2>
+            <p><strong>Experience:</strong> 10 years</p>
+            <p><strong>Location:</strong> New York, USA</p>
+            <p><strong>Contact:</strong> +1 234 567 890</p>
+            <p><strong>Email:</strong> catherine@gmail.com</p>
+        </div>
+    </div>
+    <div class="designer-card">
+        <img src="D:\Fashora plazo\d5.jpg" alt="Designer Picture">
+        <div class="designer-details">
+            <h2>Samuel</h2>
+            <p><strong>Experience:</strong> 8 years</p>
+            <p><strong>Location:</strong> Los Angeles, USA</p>
+            <p><strong>Contact:</strong> +1 987 654 321</p>
+            <p><strong>Email:</strong> sam@gmail.com</p>
+        </div>
+    </div>
+    <div class="designer-card">
+        <img src= "D:\Fashora plazo\d7.jpg" alt="Designer Picture">
+        <div class="designer-details">
+            <h2>Ananya</h2>
+            <p><strong>Experience:</strong> 6 years</p>
+            <p><strong>Location:</strong> MG road, Bengaluru</p>
+            <p><strong>Contact:</strong> +91 9008754123</p>
+            <p><strong>Email:</strong> ananya@gmail.com</p>
+        </div>
+    </div>
+    <div class="designer-card">
+        <img src="D:\Fashora plazo\d1.jpg" alt="Designer Picture">
+        <div class="designer-details">
+            <h2>Vihaan</h2>
+            <p><strong>Experience:</strong> 7 years</p>
+            <p><strong>Location:</strong> Chennai, Tamilnadu</p>
+            <p><strong>Contact:</strong> +91 6655432890</p>
+            <p><strong>Email:</strong> vihaan@gmail.com</p>
+        </div>
+    </div>
+    <div class="designer-card">
+        <img src="D:\Fashora plazo\d2.jpg" alt="Designer Picture">
+        <div class="designer-details">
+            <h2>Luna</h2>
+            <p><strong>Experience:</strong> 9 years</p>
+            <p><strong>Location:</strong> Sydney, Australia</p>
+            <p><strong>Contact:</strong> +61 987 654 321</p>
+            <p><strong>Email:</strong> luna@example.com</p>
+        </div>
+    </div>
+    <div class="designer-card">
+        <img src="D:\Fashora plazo\d6.jpg" alt="Designer Picture">
+        <div class="designer-details">
+            <h2>Aryan</h2>
+            <p><strong>Experience:</strong> 6 years</p>
+            <p><strong>Location:</strong> Hyderabad, Andhra Pradesh</p>
+            <p><strong>Contact:</strong> +91 8976542310</p>
+            <p><strong>Email:</strong> aryan@gmail.com</p>
+        </div>
+    </div>
+    <div class="designer-card">
+        <img src="D:\Fashora plazo\d8.jpg" alt="Designer Picture">
+        <div class="designer-details">
+            <h2>Anushka</h2>
+            <p><strong>Experience:</strong> 11 years</p>
+            <p><strong>Location:</strong> Mangalore, Karnataka</p>
+            <p><strong>Contact:</strong> +91 9876543212</p>
+            <p><strong>Email:</strong> anushka@gmail.com</p>
+        </div>
+    </div>
+    <div class="designer-card">
+        <img src="D:\Fashora plazo\d3.jpg" alt="Designer Picture">
+        <div class="designer-details">
+            <h2>Zara</h2>
+            <p><strong>Experience:</strong> 11 years</p>
+            <p><strong>Location:</strong> Berlin, Germany</p>
+            <p><strong>Contact:</strong> +49 987 654 321</p>
+            <p><strong>Email:</strong> zara@gmail.com</p>
+        </div>
+    </div>
+</body>
+</html>
